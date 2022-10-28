@@ -1,11 +1,14 @@
 import Heading from './components/Heading';
-
+import Paragraph from './components/Paragraph';
+import GlobalStyle from './components/GlobalStyles';
 function App() {
   	return (
-  	 	<div className="App" style={{ background :"red" }}> 
-			<h1>CSS</h1>
-			<Heading />
-    	</div>
+  	 	<GlobalStyle>
+			<div className="App" style={{ textAlign :"center" }}> 
+				<Heading />
+				<Paragraph />
+	  		</div>
+		</GlobalStyle>
 	);
 }
 

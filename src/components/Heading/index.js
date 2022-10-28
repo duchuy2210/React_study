@@ -1,7 +1,8 @@
-import './Heading.css'
+import styles from './Heading.module.css'
 
 function Heading(){
-   return <h1 className='heading'>Heloo beloo </h1>
+   console.log(styles)
+   return <h1 className={styles.heading}>Heloo beloo </h1>
 }
 
 export default Heading
