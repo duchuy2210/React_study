@@ -1,4 +1,4 @@
-import button from './Button.module.css'
+import button from './Button.module.scss'
 import clsx from 'clsx'
 
 function Button({ primary }) {
